@@ -1,0 +1,16 @@
+{
+    "terms": [
+        {
+            "term" : "ill",
+            "weight" : 1.0
+        },
+        {
+            "term" : "sick",
+            "weight" : 1.0
+        },
+        {
+            "term" : "pain",
+            "weight" : 1.0
+        }
+    ]
+}
