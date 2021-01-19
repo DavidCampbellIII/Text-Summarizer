@@ -1,0 +1,8 @@
+//TODO label each link and explain what it is
+https://realpython.com/python-speech-recognition/
+https://stackabuse.com/text-summarization-with-nltk-in-python/#:~:text=Text%20summarization%20is%20a%20subdomain,and%20deep%20learning%2Dbased%20techniques
+https://cmusphinx.github.io/wiki/tutorialtuning/
+https://www.nltk.org/install.html
+https://towardsdatascience.com/understand-text-summarization-and-create-your-own-summarizer-in-python-b26a9f09fc70
+https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk
+

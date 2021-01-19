@@ -26,7 +26,8 @@ def transcribeAudio(audio):
     print("Thinking...")
     try:
         #pocketsphinx sucks right now.  Try using different acoustic model to improve accuracy?
-        #print(r.recognize_sphinx(audio))
+        #result = r.recognize_sphinx(audio)
+        
         #google is far better, but requires internet connection
         result = r.recognize_google(audio)
         print(result)
