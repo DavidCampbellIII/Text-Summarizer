@@ -1,5 +1,7 @@
 #===REQUIRED INSTALLS===
 #-pip install nltk
+#-pip install spacy #NOTE: Maybe an alternative to NLTK?
+#-python -m spacy download en_core_web_sm
 #-pip install SpeechRecognition
 #-pip install pyaudio
 #-pip install pocketsphinx
@@ -11,6 +13,14 @@
 #[] Create special corpus for certain subjects with associated word weights
 #[] Apply special corpus weights to final word summarization
 #[] Experiment with abstraction summarization vs extraction summarization
+#[] Use lemmatization for more accurate extraction summarization
+
+#Questions:
+#Do numbers ever really matter? (Not "one", but "1" etc.)
+#How will finally summary be sent to users?  As downloadable document?  Another
+#   program on their compute that syncs up?
+#Speaking of the above, how will the device work in general?  All processing done on Raspberry Pi maybe?
+#   Or recorded on a normal deivce, and then uploaded to computer?  Mix of both?
 
 import speech_recognition as sr
 from summarizer import Summarizer

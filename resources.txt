@@ -1,8 +1,26 @@
-//TODO label each link and explain what it is
+//Basics of setting up a transcription engine and recording in real time (or standalone audio files)
 https://realpython.com/python-speech-recognition/
+
+//Basics of text summarization using extraction methods and NLTK library
 https://stackabuse.com/text-summarization-with-nltk-in-python/#:~:text=Text%20summarization%20is%20a%20subdomain,and%20deep%20learning%2Dbased%20techniques
+
+//How to build a custom acoustic model for pocket sphinx, completely local transcription engine
 https://cmusphinx.github.io/wiki/tutorialtuning/
+
+//NLTK
 https://www.nltk.org/install.html
+
+//More complex text summarization through extraction and word vectorization
 https://towardsdatascience.com/understand-text-summarization-and-create-your-own-summarizer-in-python-b26a9f09fc70
+
+//Most complex and comprehensive guide to NLTK and text summarization/analysis that I could find so far
 https://www.datacamp.com/community/tutorials/text-analytics-beginners-nltk
 
+//Analysis between spaCy and NLTK - TLDR: spaCy mostly slower, but it seems like it does more than NLTK.  Mostly same speed on a lot of things however.
+https://towardsdatascience.com/spacy-vs-nltk-ab782e3f7a49
+
+//spaCy comprehensive tutorial and information on how to do basic operations with it
+https://realpython.com/natural-language-processing-spacy-python/
+
+//spaCy pretrained model information
+https://spacy.io/models/en
