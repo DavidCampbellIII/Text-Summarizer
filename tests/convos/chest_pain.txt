@@ -1,0 +1,56 @@
+Patient one 
+
+Doctor
+Good morning Mr Smith 
+
+Patient 1
+Good morning doctor
+
+Doctor
+How can I help you today? (chief complaint) 
+
+Patient 1
+I have chest pain 
+
+Doctor
+Where In the chest is the pain? (location) 
+
+Patient 1
+To the left upper chest.
+
+Doctor
+Any other symptoms? (associated symptoms)
+
+Patient 1
+I get short of breath when I walk. I also get nausea. 
+
+Doctor
+Any thing that makes the chest pain worse? (exacerbation symptoms) 
+
+Patient 1
+Walking makes the pain worse.
+
+Doctor
+How long had you had the chest pains? (duration) 
+
+Patient 1
+I have the pains for the last month
+
+
+Doctor
+Do you have acid reflux? (differential diagnosis? 
+
+Patient 1
+No
+
+Doctor
+Do you have cough?
+
+Patient 1
+No
+
+Doctor
+Any anxiety? 
+
+Patient 1
+No

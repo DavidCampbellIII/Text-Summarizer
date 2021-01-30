@@ -1,0 +1,47 @@
+/*
+KEY:
+<>                  replace (can use ~, ~#, or # to specify what kind of replacement should take place)
+#                   tags key of replacement
+###some words###    manual insertion required
+~                   replace with direct import
+~#                  replace with summarizer import
+/* */               comment (can be used as multiline comment, such as in this example)
+*/
+
+Chief complaint 
+<#CHIEF_COMPLAINT> 
+
+History of present illness
+<#PRESENT_ILLNESS>
+
+-------
+Past medical history 
+<~#PAST_MEDICAL_HISTORY>
+
+Medications
+<~MEDICATIONS>
+
+Allergies
+<~ALLERGIES>
+
+Family history 
+<~#FAMILY_HISTORY>
+
+-------
+Review of system
+#TODO
+General: no fevers or chills
+Cardiac: no palpitations, has chest pains
+Pulmonary: has shortness of breath, no cough
+
+Exam
+#TODO
+Vitals temperature 97.4 blood pressure 124/78 pulse of 78 respiratory rate of 80
+Lungs clear to auscultation, good air movement
+Heart: regular rate and rhythm, no murmurs
+
+Assessment
+###DOCTOR MANUAL INSERTION REQUIRED###
+
+Plan
+###DOCTOR MANUAL INSERTION REQUIRED###
