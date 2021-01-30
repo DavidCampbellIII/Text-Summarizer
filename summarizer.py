@@ -6,6 +6,8 @@ import spacy
 import heapq
 
 class Summarizer:
+    #could also use the model of "en_core_web_sm"
+    #though not entirely sure of the difference between the two at this stage
     _nlp = spacy.load("en_core_web_md")
     #summarizes by way of extraction
     def summarize(self, text, compressionRate=0.75):
@@ -52,7 +54,7 @@ class Summarizer:
         #max number of words in a sentence for it to be considered
         maxSentenceLengthAllowed = 30
         for sent in sentences:
-            if len(sent.split(" ") < maxSentenceLengthAllowed):
+            if len(sent.split(" ")) < maxSentenceLengthAllowed:
                 print("Sentence:", sent)
                 #TODO somehow avoid retokenizing words here.  Slightly slower because of scaPy's overhead when
                 #tokenizing sentence (due to automatically added attributes, like lemmatization)
@@ -104,9 +106,9 @@ class Summarizer:
     def readFileText(self, filename):
         return "".join(open(filename).readlines())
 
-
-summarizer = Summarizer()
-#text = summarizer.readFileText("test_texts/test_text_htmlConvo.txt")
-text = summarizer.readArticle("https://en.wikipedia.org/wiki/Medicine")
-summary = summarizer.summarize(text, 0.9)
-print(summarizer.summarize(summary, 0.75))
+if __name__ == "__main__":
+    summarizer = Summarizer()
+    #text = summarizer.readFileText("test_texts/test_text_htmlConvo.txt")
+    text = summarizer.readArticle("https://en.wikipedia.org/wiki/Medicine")
+    summary = summarizer.summarize(text, 0.9)
+    print(summarizer.summarize(summary, 0.75))

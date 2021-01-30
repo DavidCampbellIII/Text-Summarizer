@@ -1,0 +1,8 @@
+{
+    "puncuatorModels_PATH" : "models/punctuator/",
+    "puncuatorModel" : "INTERSPEECH-T-BRNN.pcl",
+    "corpuses_PATH" : "corpuses/",
+    "corpus" : "medical_corpus.json",
+    "testTexts_PATH" : "test_texts/",
+    "testText" : "test_text_htmlConvo.txt"
+}

@@ -1,7 +1,9 @@
 #===REQUIRED INSTALLS===
 #-pip install nltk
-#-pip install spacy #NOTE: Maybe an alternative to NLTK?
+#-pip install spacy
 #-python -m spacy download en_core_web_sm
+#-pip install punctuator
+#-pip install --upgrade pymc3 #Only do this if theano gives error, and after "pip uninstall theano"
 #-pip install SpeechRecognition
 #-pip install pyaudio
 #-pip install pocketsphinx
@@ -17,12 +19,16 @@
 
 #Questions:
 #Do numbers ever really matter? (Not "one", but "1" etc.)
+#   YES
 #How will finally summary be sent to users?  As downloadable document?  Another
 #   program on their compute that syncs up?
+#   PREFERABLY IN EPIC SOFTWARE DIRECTLY, BUT UNTIL THEN, A FILE IS FINE
 #Speaking of the above, how will the device work in general?  All processing done on Raspberry Pi maybe?
 #   Or recorded on a normal deivce, and then uploaded to computer?  Mix of both?
 
+import json
 import speech_recognition as sr
+from punctuator import Punctuator
 from summarizer import Summarizer
 
 def recordAudio():
@@ -45,7 +51,14 @@ def transcribeAudio(audio):
     except sr.UnknownValueError:
         print("Unknown audio detected!")
 
+def punctuateText(text, modelFileName):
+    punc = Punctuator(modelFileName)
+    return punc.punctuate(text)
+
 if __name__ == "__main__":
+    with open("config/config.json") as f:
+        config = json.load(f)
+    
     r = sr.Recognizer()
     mic = sr.Microphone(device_index=0)
 
@@ -54,6 +67,8 @@ if __name__ == "__main__":
         audio = recordAudio()
 
         text = transcribeAudio(audio)
+        text = punctuateText(text, config["puncuatorModels_PATH"] + config["puncuatorModel"])
+        print("Puncuated text:", text)
         if text == "stop recording":
             print("Stopping recording...")
             recording = False

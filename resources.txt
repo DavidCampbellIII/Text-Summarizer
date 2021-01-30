@@ -24,3 +24,6 @@ https://realpython.com/natural-language-processing-spacy-python/
 
 //spaCy pretrained model information
 https://spacy.io/models/en
+
+//Punctuator python package info
+https://pypi.org/project/punctuator/
