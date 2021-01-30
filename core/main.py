@@ -29,7 +29,8 @@
 import json
 import speech_recognition as sr
 from punctuator import Punctuator
-from summarizer import Summarizer
+from core.summarizer import Summarizer
+from core.resourceManager import ResourceManager
 
 def recordAudio():
     print("Listening...")
