@@ -12,10 +12,13 @@
 
 #TODO:
 #[] Record individual setences before transcribing and summarizing
+#[] Investigate about creating a custom acoustic model for pocket-sphinx
 #[] Create special corpus for certain subjects with associated word weights
 #[] Apply special corpus weights to final word summarization
 #[] Experiment with abstraction summarization vs extraction summarization
 #[] Use lemmatization for more accurate extraction summarization
+#[] Investigate why Punctator will not start up correctly (may be due to corrupt dependency library)
+#[x] Email OpenAI about GPT-3
 
 #Questions:
 #Do numbers ever really matter? (Not "one", but "1" etc.)
