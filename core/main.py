@@ -19,6 +19,7 @@
 #[] Use lemmatization for more accurate extraction summarization
 #[] Investigate why Punctator will not start up correctly (may be due to corrupt dependency library)
 #[x] Email OpenAI about GPT-3
+#[] Experiment with QIE Engine for Epic software data importing
 
 #Questions:
 #Do numbers ever really matter? (Not "one", but "1" etc.)
