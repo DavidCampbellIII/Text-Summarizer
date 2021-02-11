@@ -1,4 +1,16 @@
 {
     "Sample Name": "Gen Med Consult - 24",
-    "Description": "Patient complaining of headaches, neck pain, and lower back pain over the last 2-3 weeks."
+    "Description": "Patient complaining of headaches, neck pain, and lower back pain over the last 2-3 weeks.",
+    "Chief Complaint": "",
+    "History Of Present Illness": "",
+    "Past Medical History": "HIV diagnosed 11 years ago. No history of opportunistic infections. Recently diagnosed with Castleman\u0092s Disease (9/03) from excisional lymph node biopsy s/p cyclophosphamide/prednisone ( 9/25/03 ) and modified CHOP ( 10/15/03 , 11/10/03 ). Last CD4 count is 67 and viral load is 341K (9/03). Currently is off HAART x 3 weeks because of noncompliance.",
+    "Past Surgical History": "",
+    "Family History": "",
+    "Social History": "",
+    "Medication": "Tylenol #3 q6h prn, ibuprofen 800 mg q8h prn, methocarbamol 750 mg qid.",
+    "Allergies": "",
+    "Review Of Systems": "",
+    "Physical Exam": "",
+    "Studies": "C-spine/lumbosacral spine (11/30): Within normal limits.\nCXR (12/8): Normal heart size, no infiltrate. Hila and mediastinum are not enlarged.\nCT Head with and without contrast (12/8): Ventriculomegaly and potentially minor hydrocephalus. Otherwise normal CT scan of the brain. No evidence of abnormal enhancement of the brain or mass lesions within the brain or dura.",
+    "Hospital Course": ""
 }

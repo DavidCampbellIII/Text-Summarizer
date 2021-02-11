@@ -1,4 +1,16 @@
 {
     "Sample Name": "Headache - Emergency Visit",
-    "Description": "Muscle tension cephalgia.  Right trapezius and rhomboid muscle spasm."
+    "Description": "Muscle tension cephalgia. Right trapezius and rhomboid muscle spasm.",
+    "Chief Complaint": "Headache.",
+    "History Of Present Illness": "This is a 16-year-old white female who presents here to the emergency department in a private auto with her mother for evaluation of headache. She indicates intense constant right frontal headache, persistent since onset early on Monday, now more than 48 hours ago. Indicates pressure type of discomfort with throbbing component. It is as high as a 9 on a 0 to 10 scale of intensity. She denies having had similar discomfort in the past. Denies any trauma.\nReview of systems: No fever or chills. No sinus congestion or nasal drainage. No cough or cold symptoms. No head trauma. Mild nausea. No vomiting or diarrhea. Other systems reviewed and are negative.",
+    "Pmh": "Acne. Psychiatric history is unremarkable.",
+    "Psh": "Right knee surgery.",
+    "Sh": "The patient is single. Living at home. No smoking or alcohol.",
+    "Fh": "Noncontributory.",
+    "Allergies": "No drug allergies.",
+    "Medications": "Accutane and Ovcon.",
+    "Physical Examination": "VITALS: Temperature of 97.8 degrees F., pulse of 80, respiratory rate of 16, and blood pressure is 131/96.\nGENERAL: This is a 16-year-old white female. She is awake, alert, and oriented x3. She does appear bit uncomfortable.\nHEAD: Normocephalic and atraumatic.\nEYES: The pupils were equal and reactive to light. Extraocular movements are intact.\nENT: TMs are clear. Nose and throat are unremarkable.\nNECK: There is no evidence of nuchal rigidity. She does, however, have notable tenderness and spasm of the right trapezius and rhomboid muscles when she extends up to the right paracervical muscles. Palpation clearly causes having exacerbation of her discomfort.\nCHEST: Thorax is unremarkable.\nGI: Abdomen is nontender.\nMUSCLES: Extremities are unremarkable.\nNEURO: Cranial nerves II through XII are grossly intact. Motor and sensory are grossly intact.\nSKIN: Skin is warm and dry.",
+    "Ed Course": "The patient was given IV Norflex 60 mg, Zofran 4 mg, and morphine sulfate 4 mg and with that has significant improvement in her discomfort.",
+    "Diagnoses": "1. Muscle tension cephalgia.\n2. Right trapezius and rhomboid muscle spasm.",
+    "Plan": "Scripts were given for Darvocet-N 100 one every 4 to 6 hours #15, Soma one 4 times a day #20. She was instructed to apply warm compresses and perform gentle massage. Follow up with regular provider as needed. Return if any problems."
 }

@@ -20,6 +20,7 @@
 #[] Investigate why Punctator will not start up correctly (may be due to corrupt dependency library)
 #[x] Email OpenAI about GPT-3
 #[] Experiment with QIE Engine for Epic software data importing
+#[] Research BERT and see how it can be implemented in this project
 
 #Questions:
 #Do numbers ever really matter? (Not "one", but "1" etc.)

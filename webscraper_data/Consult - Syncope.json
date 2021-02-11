@@ -1,0 +1,19 @@
+{
+    "Sample Name": "Consult - Syncope",
+    "Description": "Patient was brought in the Emergency Room following an episode of syncope. The patient relates that he may have had a seizure activity prior to that. Prior to the episode, he denies having any symptoms of chest pain or shortness of breath.",
+    "Reason For Consultation": "Syncope.",
+    "History Of Present Illness": "The patient is a 69-year-old gentleman, a good historian, who relates that he was brought in the Emergency Room following an episode of syncope. The patient relates that he may have had a seizure activity prior to that. Prior to the episode, he denies having any symptoms of chest pain or shortness of breath. No palpitation. Presently, he is comfortable, lying in the bed. As per the patient, no prior cardiac history.",
+    "Coronary Risk Factors": "History of hypertension. No history of diabetes mellitus. Nonsmoker. Cholesterol status is borderline elevated. No history of established coronary artery disease. Family history noncontributory.",
+    "Past Medical History": "Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+    "Past Surgical History": "Back surgery, shoulder surgery, and appendicectomy.",
+    "Family History": "Nonsignificant.",
+    "Medications": "1. Pain medications.\n2. Thyroid supplementation.\n3. Lovastatin 20 mg daily.\n4. Propranolol 20 b.i.d.\n5. Protonix.\n6. Flomax.",
+    "Allergies": "None.",
+    "Personal History": "He is married. Nonsmoker. Does not consume alcohol. No history of recreational drug use.",
+    "Review Of Systems": "CONSTITUTIONAL: No weakness, fatigue, or tiredness.\nHEENT: No history of cataract or glaucoma.\nCARDIOVASCULAR: No congestive heart failure. No arrhythmias.\nRESPIRATORY: No history of pneumonia or valley fever.\nGASTROINTESTINAL: No nausea, vomiting, hematemesis, or melena.\nUROLOGICAL: No frequency or urgency.\nMUSCULOSKELETAL: Arthritis and muscle weakness.\nSKIN: Nonsignificant.\nNEUROLOGIC: No TIA or CVA. No seizure disorder.\nENDOCRINE/HEMATOLOGIC: Nonsignificant.",
+    "Physical Examination": "VITAL SIGNS: Pulse of 93, blood pressure of 158/93, afebrile, and respiratory rate 16 per minute.\nHEENT: Atraumatic and normocephalic.\nNECK: Neck veins are flat. No significant carotid bruits.\nLUNGS: Air entry is bilaterally decreased.\nHEART: PMI is displaced. S1 and S2 are regular.\nABDOMEN: Soft and nontender. Bowel sounds are present.\nEXTREMITIES: No edema. Pulses are palpable. No clubbing or cyanosis. The patient is moving all extremities; however, the patient has tremors.",
+    "Radiological Data": "EKG reveals normal sinus rhythm with underlying nonspecific ST-T changes secondary to tremors.",
+    "Laboratory Data": "H&H stable. White count of 14. BUN and creatinine are within normal limits. Cardiac enzyme profile is negative. Ammonia level is elevated at 69. CT angiogram of the chest, no evidence of pulmonary embolism. Chest x-ray is negative for acute changes. CT of the head, unremarkable, chronic skin changes. Liver enzymes are within normal limits.",
+    "Impression": "1. The patient is a 69-year-old gentleman, admitted with syncopal episode and possible seizure disorder.\n2. Elevated ammonia, unclear etiology, possible encephalopathy.\n3. Cardiac risk factors of hypertension and borderline hyperlipidemia. No prior history of documented coronary artery disease.",
+    "Recommendations": "1. From cardiac standpoint, echocardiogram with LV function.\n2. Conservative treatment.\n3. Neurological evaluation."
+}

@@ -1,0 +1,14 @@
+{
+    "Sample Name": "Normal ROS Template - 3",
+    "Description": "Normal review of systems template. No history of headaches, migraines, vertigo, syncope, visual loss, tinnitus, sinusitis, sore in the mouth, hoarseness, swelling or goiter.",
+    "Heent": "No history of headaches, migraines, vertigo, syncope, visual loss, tinnitus, sinusitis, sore in the mouth, hoarseness, swelling or goiter.",
+    "Respiratory": "No shortness of breath, wheezing, dyspnea, pulmonary disease, tuberculosis or past pneumonias.",
+    "Cardiovascular": "No history of palpitations, irregular rhythm, chest pain, hypertension, hyperlipidemia, diaphoresis, congestive heart failure, heart catheterization, stress test or recent cardiac tests.",
+    "Gastrointestinal": "No history of rectal bleeding, appetite change, abdominal pain, hiatal hernia, ulcer, jaundice, change in bowel habits or liver problems, and no history of inflammatory bowel problems.",
+    "Genitourinary": "No dysuria, hematuria, frequency, incontinence or colic.",
+    "Nervous System": "No gait problems, strokes, numbness or muscle weakness.",
+    "Psychiatric": "No history of emotional lability, depression or sleep disturbances.",
+    "Oncologic": "No history of any cancer, change in moles or rashes. No history of weight loss. The patient has a good energy level.",
+    "Allergic/Lymph": "No history of systemic allergy, abnormal lymph nodes or swelling.",
+    "Musculoskeletal": "No fractures, motor weakness, arthritis or other joint pains."
+}

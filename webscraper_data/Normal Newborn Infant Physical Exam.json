@@ -1,0 +1,15 @@
+{
+    "Sample Name": "Normal Newborn Infant Physical Exam",
+    "Description": "Normal newborn infant physical exam. A well-developed infant in no acute respiratory distress.",
+    "General": "A well-developed infant in no acute respiratory distress.",
+    "Vital Signs": "Initial temperature was XX, pulse XX, respirations XX. Weight XX grams, length XX cm, head circumference XX cm.",
+    "Heent": "Head is normocephalic with anterior fontanelle open, soft, and non-bulging. Eyes: Red reflex elicited bilaterally. TMs occluded with vernix and not well visualized. Nose and throat are patent without palatal defect.",
+    "Neck": "Supple without clavicular fracture.",
+    "Lungs": "Clear to auscultation.",
+    "Heart": "Regular rate without murmur, click, or gallop present. Pulses are 2/4 for brachial and femoral.",
+    "Abdomen": "Soft with bowel sounds present. No masses or organomegaly.",
+    "Genitalia": "Normal.",
+    "Extremities": "Without evidence of hip defects.",
+    "Neurologic": "The infant has good Moro, grasp, and suck reflexes.",
+    "Skin": "Warm and dry without evidence of rash."
+}

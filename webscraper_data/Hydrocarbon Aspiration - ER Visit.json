@@ -1,1 +1,16 @@
-{"Sample Name": "Hydrocarbon Aspiration - ER Visit", "Description": "The patient ingested tiki oil (kerosene, liquid paraffin, citronella oil) approximately two days prior to admission.  He subsequently developed progressive symptoms of dyspnea, pleuritic chest pain, hemoptysis with nausea and vomiting."}
+{
+    "Sample Name": "Hydrocarbon Aspiration - ER Visit",
+    "Description": "The patient ingested tiki oil (kerosene, liquid paraffin, citronella oil) approximately two days prior to admission. He subsequently developed progressive symptoms of dyspnea, pleuritic chest pain, hemoptysis with nausea and vomiting.",
+    "Subjective": "The patient is a 20-year-old Caucasian male admitted via ABCD Hospital Emergency Department for evaluation of hydrocarbon aspiration. The patient ingested \"tiki oil\" (kerosene, liquid paraffin, citronella oil) approximately two days prior to admission. He subsequently developed progressive symptoms of dyspnea, pleuritic chest pain, hemoptysis with nausea and vomiting. He was seen in the ABCD Hospital Emergency Department, toxic appearing with an abnormal chest x-ray demonstrating bilateral lower lobe infiltrates, greater on the right. He had a temperature of 38.3 with tachycardia approximating 130. White count was 59,300 with a marked left shift. Arterial blood gases showed pH 7.48, pO2 79, and pCO2 35. He was admitted for further medical management.",
+    "Past Medical History": "Aplastic crisis during childhood requiring splenectomy and a cholecystectomy at age 9.",
+    "Drug Allergies": "NONE KNOWN.",
+    "Current Medications": "None.",
+    "Family History": "Noncontributory.",
+    "Social History": "The patient works at a local Christmas tree farm. He smokes cigarettes approximately one pack per day.",
+    "Review Of Systems": "Ten-system review significant for nausea, vomiting, fever, hemoptysis, and pleuritic chest pain.",
+    "Physical Examination": "GENERAL: A toxic-appearing 20-year-old Caucasian male, in mild respiratory distress.\nVITAL SIGNS: Blood pressure 122/74, pulse 130 and regular, respirations 24, temperature 38.3, and oxygen saturation 93%.\nSKIN: No rashes, petechiae or ecchymoses.\nHEENT: Within normal limits. Pupils are equally round and reactive to light and accommodation. Ears clean. Throat clean.\nNECK: Supple without thyromegaly. Lymph nodes are nonpalpable.\nCHEST: Decreased breath sounds bilaterally, greater on the right, at the right base.\nCARDIAC: No murmur or gallop rhythm.\nABDOMEN: Mild direct diffuse tenderness without rebound. No detectable masses, pulsations or organomegaly.\nEXTREMITIES: No edema. Pulses are equal and full bilaterally.\nNEUROLOGIC: Nonfocal.",
+    "Database": "Chest x-ray, bilateral lower lobe pneumonia, greater on the right. EKG, sinus tachycardia, rate of 130, normal intervals, no ST changes. Arterial blood gases on 2 L of oxygen, pH 7.48, pO2 79, and pCO2 35.",
+    "Blood Studies": "Hematocrit is 43, WBC 59,300 with a left shift, and platelet count 394,000. Sodium is 130, potassium 3.8, chloride 97, bicarbonate 24, BUN 14, creatinine 0.8, random blood sugar 147, and calcium 9.4.",
+    "Impression": "1. Hydrocarbon aspiration.\n2. Bilateral pneumonia with pneumonitis secondary to aspiration.\n3. Asplenic patient.",
+    "Plan": "1. ICU monitoring.\n2. O2 protocol.\n3. Hydration.\n4. Antiemetic therapy.\n5. Parenteral antibiotics.\n6. Prophylactic proton pump inhibitors.\nThe patient will need ICU monitoring and Pulmonary Medicine evaluation pending clinical course."
+}

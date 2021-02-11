@@ -1,0 +1,16 @@
+{
+    "Sample Name": "Normal Physical Exam Template - 6",
+    "Description": "Normal physical exam template. Normal appearance for chronological age, does not appear chronically ill.",
+    "Vital Signs": "Reveal a blood pressure of *, temperature of *, respirations *, and pulse of *.",
+    "Constitutional": "Normal appearance for chronological age, does not appear chronically ill.",
+    "Heent": "The pupils are equal and reactive. Funduscopic examination is normal. Posterior pharynx is normal. Tympanic membranes are clear.",
+    "Neck": "Trachea is midline. Thyroid is normal. The neck is supple. Negative nodes.",
+    "Respiratory": "Lungs are clear to auscultation bilaterally. The patient has a normal respiratory rate, no signs of consolidation and no egophony. There are no retractions or secondary muscle use. Good bilateral breath sounds are noted.",
+    "Cardiovascular": "No jugular venous distention or carotid bruits. No increase in heart size to percussion. There is no murmur. Normal S1 and S2 sounds are noted without gallop.",
+    "Abdomen": "Soft to palpation in all four quadrants. There is no organomegaly and no rebound tenderness. Bowel sounds are normal. Obturator and psoas signs are negative.",
+    "Genitourinary": "No bladder tenderness, negative flank pain.",
+    "Musculoskeletal": "Extremities are normal with good motor tone and strength, normal reflexes, and normal joint strength and sensation.",
+    "Neurologic": "Normal Glasgow Coma Scale. Cranial nerves II through XII appear grossly intact. Normal motor and cerebellar tests. Reflexes are normal.",
+    "Heme/Lymph": "No abnormal lymph nodes, no signs of bleeding, skin purpura, petechiae or hemorrhage.",
+    "Psychiatric": "Normal with no overt depression or suicidal ideations."
+}

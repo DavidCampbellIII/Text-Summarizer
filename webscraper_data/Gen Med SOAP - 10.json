@@ -1,0 +1,8 @@
+{
+    "Sample Name": "Gen Med SOAP - 10",
+    "Description": "The patient has NG tube in place for decompression.",
+    "Subjective": "The patient has NG tube in place for decompression. She says she is feeling a bit better.",
+    "Physical Examination": "VITAL SIGNS: She is afebrile. Pulse is 58 and blood pressure is 110/56.\nSKIN: There is good skin turgor.\nGENERAL: She is not in acute distress.\nCHEST: Clear to auscultation. There is good air movement bilaterally.\nCARDIOVASCULAR: First and second sounds are heard. No murmurs appreciated.\nABDOMEN: Less distended. Bowel sounds are absent.\nEXTREMITIES: She has 3+ pedal swelling.\nNEUROLOGICAL: The patient is alert and oriented x3. Examination is nonfocal.",
+    "Laboratory Data": "White count is down from 20,000 to 12.5, hemoglobin is 12, hematocrit 37, and platelets 199,000. Glucose is 157, BUN 14, creatinine 0.6, sodium is 131, potassium is 4.0, and CO2 is 31.",
+    "Assessment And Plan": "1. Small bowel obstruction/paralytic ileus, rule out obstipation. Continue with less aggressive decompression. Follow surgeon's recommendation.\n2. Pulmonary fibrosis, status post biopsy. Manage as per pulmonologist.\n3. Leukocytosis, improving. Continue current antibiotics.\n4. Bilateral pedal swelling. Ultrasound of the lower extremity negative for DVT.\n5. Hyponatremia, improving.\n6. DVT prophylaxis.\n7. GI prophylaxis."
+}

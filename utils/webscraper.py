@@ -1,11 +1,13 @@
 import bs4 as bs
-import urllib.request
+from urllib.request import urlopen, Request
 import re
 import json
 import os
 
 def scrapeURL(url, domainName, savePath):
-    mainPage = urllib.request.urlopen(url)
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.3'}
+    request = Request(url=url, headers=headers)
+    mainPage = urlopen(request)
     pageText = mainPage.read()
     parsedText = bs.BeautifulSoup(pageText, "lxml")
 
@@ -21,7 +23,8 @@ def scrapeURL(url, domainName, savePath):
     #goes through all found links and starts parsing process
     for link in links:
         print("Going to... ", link)
-        pageText = urllib.request.urlopen(link).read()
+        request = Request(url=link, headers=headers)
+        pageText = urlopen(request).read()
         pageData = parsePage(pageText)
         saveParsedPageToJson(savePath, pageData)
 
@@ -35,26 +38,25 @@ def parsePage(pageText):
 
     #description
     h2 = parsedText.find("h2")
-    addElement(pageData, "Description", h2.text, "description:", "\r\n")
+    addElement(pageData, "Description", h2.text, "description:", "(Medical Transcription Sample Report)")
 
     #find all bolded elements
     boldElements = parsedText.find("div", class_="hilightBold").find_all("b")
 
-    #TODO:
     #go one at a time through each bolded element:
         #use bolded text as entry name (to title case)
         #keep grabbing next sibling until next bolded element is reached
         #stop once we reach KEYWORDS, which seems to always be the last bold element on each page
-
     startIndex = 3
     for i in range(startIndex, len(boldElements) - 1):
+        #current bold element we are on
         currentBold = boldElements[i]
+        #stop at the next bold element, grab all text in between
         stopBold = boldElements[i + 1]
-        #TODO clean title
-        title = currentBold.text.title()
+        #clean title of extra spaces and colons
+        title = currentBold.text.title().strip().replace(":", "")
+        #find all the text content between this bold and the next bold element
         content = findNextValidSibling(currentBold, stopBold)
-        print("Title:", title)
-        print("Content:", content)
         pageData[title] = content
 
     print("\nDict: ", pageData)
@@ -73,19 +75,26 @@ def findNextValidSibling(start, stop):
     #store as list, faster than string concatenation
     result = []
     current = start.next_sibling
+
     #keep going until we reach the stop bold element
-    while current and current != stop:
+    while current is not None and current != stop:
+        currentStr = str(current).strip()
         #if the current sibling is valid (not an <a> or <br>), add to result
-        print("Current", current)
-        if isValidSibling(current):
-            result.append(current.join("\n"))
+        if isValidSibling(currentStr):
+            result.append(currentStr)
+            #add new line just in case this sibling has multiple line breaks in it
+            result.append("\n")
         current = current.next_sibling
+
+    if len(result) > 0:
+        #remove last element because we don't want a \n at the end of a line
+        result.pop()
+
     #joining a list to a string is much faster
     return "".join(result)
 
 def isValidSibling(element):
-    element = str(element)
-    return element and element != "<br/>" and element != "<hr/>" and not "</" in element
+    return element and element != "<br/>" and element != "<hr/>" and not "</" in element and len(element) > 0
 
 #adds an element to the page data with the given entryName
 def addElement(pageData, entryName, element, elementName, stopPositionName=None):
@@ -98,8 +107,8 @@ def cleanElement(elementName, element, stopPositionName=None):
     offset = len(elementName) + 1
     elementLower = element.lower()
     startIndex = elementLower.find(elementName) + offset
-    if stopPositionName != None:
-        stopIndex = elementLower.find(stopPositionName)
+    if stopPositionName:
+        stopIndex = elementLower.find(stopPositionName.lower())
         cleanedElement = element[startIndex:stopIndex]
     else:
         cleanedElement = element[startIndex:]

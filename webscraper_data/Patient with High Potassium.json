@@ -1,4 +1,18 @@
 {
     "Sample Name": "Patient with High Potassium",
-    "Description": "Patient in emergency room due to high potassium value."
+    "Description": "Patient in emergency room due to high potassium value.",
+    "Chief Complaint": "",
+    "History Of Present Illness": "",
+    "Past Medical History": "",
+    "Past Surgical History": "",
+    "Medications": "",
+    "Allergies": "",
+    "Social History": "",
+    "Family History": "",
+    "Physical Exam": "",
+    "Chest X-Ray": "Ill-defined reticular densities in both apices. No pleural effusions. Cardiomediastinal silhouette within normal range.",
+    "Chest Ct Scan": "Multiple bilateral apical nodules/masses. Largest 3.2 x 1.6 cm in left apex. Several of these masses demonstrate spiculation. There is an associated 1 cm lymph node in the prevascular space as well as subcentimeter nodes in the pretracheal and subcarinal regions. There is a subcarinal node that demonstrates calcifications.",
+    "Abdominal Ct Scan": "Multiple hypodense lesions are noted throughout the liver. The right adrenal gland is full, measuring 1.0 x 2.3 cm. Otherwise the spleen, pancreas, left adrenal, and kidneys are free of gross mass. No significant lymphadenopathy or abnormal fluid collections are seen.",
+    "Testicular Ultrasound": "There is an enlarged irregular inhomogenous left epididymis with increased vascularity throughout the left epididymis and testis. There is a large septated hydrocele on the left. The right epididymis and testis is normal.",
+    "Hospital Course": ""
 }

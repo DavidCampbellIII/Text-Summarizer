@@ -1,0 +1,18 @@
+{
+    "Sample Name": "Normal Physical Exam Template - 4",
+    "Description": "Normal physical exam template. Normocephalic. Negative lesions, negative masses.",
+    "General": "",
+    "Vital Signs": "Blood pressure XXX, pulse XXX, temperature XXX, respirations XXX. Height XXX, weight XXX.",
+    "Head": "Normocephalic. Negative lesions, negative masses.",
+    "Eyes": "PERLA, EOMI. Sclerae clear. Negative icterus, negative conjunctivitis.",
+    "Ent": "Negative nasal hemorrhages, negative nasal obstructions, negative nasal exudates. Negative ear obstructions, negative exudates. Negative inflammation in external auditory canals. Negative throat inflammation or masses.",
+    "Skin": "Negative rashes, negative masses, negative ulcers. No tattoos.",
+    "Neck": "Negative palpable lymphadenopathy, negative palpable thyromegaly, negative bruits.",
+    "Heart": "Regular rate and rhythm. Negative rubs, negative gallops, negative murmurs.",
+    "Lungs": "Clear to auscultation. Negative rales, negative rhonchi, negative wheezing.",
+    "Abdomen": "Soft, nontender, adequate bowel sounds. Negative palpable masses, negative hepatosplenomegaly, negative abdominal bruits.",
+    "Extremities": "Negative inflammation, negative tenderness, negative swelling, negative edema, negative cyanosis, negative clubbing. Pulses adequate bilaterally.",
+    "Musculoskeletal": "Negative muscle atrophy, negative masses. Strength adequate bilaterally. Negative movement restriction, negative joint crepitus, negative deformity.",
+    "Neurologic": "Cranial nerves I through XII intact. Negative gait disturbance. Balance and coordination intact. Negative Romberg, negative Babinski. DTRs equal bilaterally.",
+    "Genitourinary": "Deferred."
+}
