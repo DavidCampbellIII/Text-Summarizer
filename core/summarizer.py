@@ -32,7 +32,7 @@ class Summarizer:
         print("\n\n=========SUMMARY==========")
         #generate summary based on sentence scores and compression rate
         summary = self.__generateSummary(sentences, sentenceScores, compressionRate)
-        return ' '.join(summary)
+        return ''.join(summary)
 
     def __genWordFrequencies(self, tokens):
         word_frequencies = {}

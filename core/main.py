@@ -31,55 +31,19 @@
 #Speaking of the above, how will the device work in general?  All processing done on Raspberry Pi maybe?
 #   Or recorded on a normal deivce, and then uploaded to computer?  Mix of both?
 
-import json
-import speech_recognition as sr
-from punctuator import Punctuator
+from core.recorder import Recorder
 from core.summarizer import Summarizer
 from core.resourceManager import ResourceManager
 from core.reporter import Reporter
-import utils.webscraper
 import utils.corpusLoader
 
-def recordAudio():
-    print("Listening...")
-    with mic as source:
-        #r.adjust_for_ambient_noise(source, duration=0.5)
-        audio = r.listen(source)
-    return audio
-
-def transcribeAudio(audio):
-    print("Thinking...")
-    try:
-        #pocketsphinx sucks right now.  Try using different acoustic model to improve accuracy?
-        #result = r.recognize_sphinx(audio)
-        
-        #google is far better, but requires internet connection
-        result = r.recognize_google(audio)
-        print(result)
-        return result
-    except sr.UnknownValueError:
-        print("Unknown audio detected!")
-
-def punctuateText(text, modelFileName):
-    punc = Punctuator(modelFileName)
-    return punc.punctuate(text)
-
 if __name__ == "__main__":
-    with open("config/config.json") as f:
-        config = json.load(f)
-    
-    r = sr.Recognizer()
-    mic = sr.Microphone(device_index=0)
+    configFileName = "config/config.json"
+    resourceManager = ResourceManager(configFileName)
+    recorder = Recorder(resourceManager.puncuatorPath)
+    text = recorder.record()
+    summarizedText = Summarizer.summarize(text, compressionRate=0.9)
 
-    recording = True
-    while recording:
-        audio = recordAudio()
+    reporter = Reporter(resourceManager.reportTemplatePath)
 
-        text = transcribeAudio(audio)
-        text = punctuateText(text, config["puncuatorModels_PATH"] + config["puncuatorModel"])
-        print("Puncuated text:", text)
-        if text == "stop recording":
-            print("Stopping recording...")
-            recording = False
-        else:
-            print(Summarizer.summarize(text, compressionRate=0.9))
+    print(summarizedText)
