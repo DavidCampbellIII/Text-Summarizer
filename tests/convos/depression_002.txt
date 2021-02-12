@@ -1,0 +1,40 @@
+Patient 6
+
+
+Doctor: hello Mr. *** 
+Patient: hi 
+
+
+Doctor: how are you
+Patient: I do not feel well. I feel depressed, I feel weak. I get angry easily, my wife tells me I’m hard to get along with. I feel like crying, I don’t sleep more than 4 hours. 
+
+Doctor: any thoughts about hurting yourself or anyone else? 
+Patient: no, I do not feel any of that. I have a family 
+
+Doctor: do you know why you feel this way? 
+Patient: it’s just the bills, I have been having difficulty paying the bills lately. 
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

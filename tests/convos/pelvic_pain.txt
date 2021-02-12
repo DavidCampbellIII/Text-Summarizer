@@ -1,0 +1,55 @@
+Patient 10
+
+
+Doctor: how are you?
+Patient: hi Doctor 
+
+Doctor: I understand you went to the emergency room over the weekend? 
+Patient: yes. 
+
+Doctor: due to pains? 
+Patient: I started to have a pelvis pain on the left side.
+
+
+Doctor: anything that triggered the pains?
+Patient: no, started by itself.  
+
+Doctor: are the pains severe? 
+Patient: it can be, I was prescribed pains medication. 
+
+Doctor: lets review the findings. The ct scan shows an ovarian cyst, left side. 4 cm in diameter. 
+Patient: what will happen with the cyst? 
+
+
+Doctor: the cyst can rupture. I recommend consultation at gynecology to see if it needs to be removed. 
+Patient: ok. 
+
+Doctor: any problems to urinate? 
+Patient: no 
+
+
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

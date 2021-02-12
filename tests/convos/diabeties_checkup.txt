@@ -1,0 +1,57 @@
+Patient 4
+
+Visit
+
+
+Doctor: good morning Mr *** 
+Patient: good morning 
+
+Doctor: did you get your blood tests for diabetes? 
+Patient:  not yet doc, I have been busy at work
+
+Doctor: ok, have you checked your glucose at home? 
+Patient: no, I do not want to check at home. I do not like needles. 
+
+
+Doctor:  any changes in your weight? 
+Patient: is the same. I cannot lose weight. 
+
+Doctor: do you follow a diabetic diet? 
+Patient: mostly. 
+
+Doctor: any problems with the medicines
+Patient: no, no problems at all. I take the medications daily 
+
+Doctor:  are you using the cpap for the sleep apnea? 
+Patient: yes, every night. 
+
+
+Doctor: any chest pains? Shortness of breath? Abdominal problems? 
+Patient: no, I feel well. 
+
+
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

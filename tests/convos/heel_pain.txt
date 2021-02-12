@@ -1,0 +1,40 @@
+Patient 8
+
+Doctor: how are you?
+Patient: I have pains.
+
+Doctor: where does it hurt?
+Patient: I have a severe pain all of right heel. I hurts when I walk and stand for more than a few minutes
+
+Doctor: how long have you had the pains?
+Patient: for about 2 months. It’s not getting better. 
+
+
+Doctor: any injury? 
+Patient: no
+
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

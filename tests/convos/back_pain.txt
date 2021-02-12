@@ -1,0 +1,46 @@
+Patient 9
+
+Patient: Hi 
+
+Doctor: how are you?
+Patient: I’m here due to pains on the back. 
+
+Doctor: what happened. 
+Patient: I had back surgery in 2017 and since then I get low back pains. At first the pain would go to the left leg. 
+
+Doctor: and now
+Patient: now I have a pain from the low back to the right leg. And I have noted the leg from the knee on is numb. 
+
+
+Doctor: any falls or back injury?
+Patient: I’m taking aspiring but, in the past, the steroid pack would help. 
+
+Doctor: are you on any medication now?
+Patient: no
+
+
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

@@ -1,0 +1,51 @@
+Patient 5
+
+
+
+Doctor: hello Mr *** 
+Patient: hi 
+
+
+Doctor: let’s go over the high blood pressure
+Patient: I have not had any problems with medication 
+
+Doctor: any chest pains or shortness of breath?
+Patient: no 
+
+Doctor: any palpitations? 
+Patient: no
+
+
+Doctor: and the acid reflux, any problems? 
+Patient: is netter, no more burping or bloating 
+
+Doctor: great, have you changed your diet? 
+Patient: yes, not using any more coffee. 
+
+Doctor: you also have elevated glucose
+Patient: I continue to eat cookies 
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

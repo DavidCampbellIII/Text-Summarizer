@@ -1,0 +1,48 @@
+Patient 11
+
+
+Doctor: hello 
+Patient: hi Doctor 
+
+Doctor: here to follow up on high blood pressure? 
+Patient: yes. 
+
+Doctor: any other concerns? 
+Patient: no 
+
+
+Doctor: are you taking the medication daily? 
+Patient: yes 
+
+Doctor: any side effects?
+Patient: no 
+
+Doctor: have you noted high blood pressure at home? 
+Patient: I do not take my blood pressure at home 
+
+ 
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

@@ -1,0 +1,36 @@
+Patient 7
+
+
+Doctor: hello Mr. *** 
+Patient: I still do not feel well since the covid infection. I still have back pain, headaches, legs pains. 
+
+Doctor: how is the cough?
+Patient: I still have cough and sleep about 6 hours. I wake up tired.
+
+Doctor: how is the anxiety?
+Patient: I still feel anxious and depressed 
+
+Doctor 
+Do you have any recent chills or fever?
+Patient 
+No 
+
+Doctor 
+Any cough or shortness of breath?
+Patient 
+No 
+
+Doctor 
+Any chest pain or palpitations?
+Patient
+No
+
+Doctor 
+Any abdominal pain, nausea or vomiting?
+Patient 
+No 
+
+Doctor 
+Do you have Joint pains or myalgias? 
+ Patient 
+No 

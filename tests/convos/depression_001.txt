@@ -1,0 +1,135 @@
+Patient 3
+
+Visit
+
+Doctor: good morning Mr Medina, I’m Dr doc 
+Patient: good morning 
+
+
+Doctor: you are new to this clinic, correct?
+Patient yes 
+
+
+Doctor: how can we help you today?
+Patient: I have fatigue and due for annual exam 
+
+
+
+Doctor: anything else you feel? 
+Patient: I feel depressed.
+
+
+Doctor: do you get irritability? 
+Patient: yes
+
+Doctor: do you cry? 
+Patient: yes 
+
+Doctor: do you have decreased concentration? 
+Patient: yes
+
+
+Doctor:  any energy problems? 
+Patient: yes, I feel fatigue. 
+
+Doctor: did you lost interest in your activities? 
+Patient: yes.
+
+Doctor: any problems with your appetite? 
+Patient: no 
+
+Doctor: any thoughts of hurting yourself? 
+Patient: no 
+
+Doctor: how long have you had all of this? 
+Patient: about 3 months
+
+Doctor: any reason for de depression? Problems at work, home, or family? 
+Patient: not really, I think is just the times we are in
+
+Doctor: are you taking any medications? 
+Patient: no 
+
+Doctor: any medical problems in past? 
+Patient: I had gallbladder surgery 
+
+Doctor: do you have any allergies to any medications? 
+Patient: no 
+
+
+Doctor: do you use tobacco or alcohol? 
+Patient: no 
+
+
+Doctor: any history of medical illness? 
+Patient: my mother has diabetes 
+
+Doctor: any other symptoms you have or concerns you want to go over?
+Patient: no 
+
+
+doctor
+do you have chills or fever?
+Patient: no
+
+doctor
+Do you have congestion, sinus pressure or sore throat?
+Patient: no
+
+
+doctor
+Do you have eyes discharge and itching?
+Patient: no
+
+
+doctor
+Do you have cough or shortness or breath? 
+Patient: no
+
+
+ doctor
+Do you have chest pain or palpitations? 
+Patient: no
+
+
+doctor
+Do you have abdominal pain or nausea? 
+Patient: no
+
+
+doctor
+Do you have heat intolerance or going to urinate too much? 
+Patient: no
+
+
+doctor
+Do you have burning to urinate or frequency? 
+Patient: no
+
+doctor
+Do you joint swelling or joint pains? 
+Patient: no
+
+
+doctor
+Any skin redness or rash?  
+Patient: no
+
+
+doctor
+Any environmental allergies and food allergies?
+Patient: no
+
+
+doctor
+Any dizziness and headaches? 
+Patient: no
+
+doctor
+Any enlarged lymph nodes or bruise or easy bleeding?
+ Patient: no
+
+
+doctor
+Any anxiety? 
+Patient: no

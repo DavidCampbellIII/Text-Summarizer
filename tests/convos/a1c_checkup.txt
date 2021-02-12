@@ -1,0 +1,49 @@
+Patient two
+
+Visit
+
+Doctor: good afternoon Mr jones 
+Patient Hi 
+
+
+Doctor: thanks for coming in. let’s review your diabetes treatment. You had blood tests a few days ago and your hgba1c increased much. 
+Patient: ok
+
+Doctor: tell me about your glucose measurements  
+Patient: sure.  So, I got ill in December and stopped all my exercise actives. I noted the sugar increase sometimes to the 300 range. I resumed my exercises, and the glucose has improved to the 180s in the last week. 
+
+Doctor: what illness did you get in December? 
+Patient: I had a cough that would not go away.
+
+Doctor: did you get tested for covid-19
+Patient: no, I decided to not get tested. I work by myself, so I just isolated from other people. 
+
+Doctor: ok, for diabetes, have you been following a diabetic diet? 
+Patient: it can be better. I did not follow a diet when I was ill. 
+
+
+ Doctor: ok, for the sleep apnea, are you using the cpap every night? 
+Patient: yes 
+
+Doctor: any problems with the blood pressure?
+Patient: no
+
+
+doctor
+Had you had recent abdominal pains or nausea?
+
+Patient 
+No 
+
+doctor
+had you had recent palpitations or chest pains
+
+patient 
+no 
+
+doctor 
+had you had recent shortness of breath or cough?
+
+
+Patient 
+No 

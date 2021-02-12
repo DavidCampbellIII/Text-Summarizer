@@ -1,0 +1,118 @@
+Patient one 
+
+Doctor
+Good morning Mr Smith 
+
+Patient 1
+Good morning doctor
+
+Doctor
+How can I help you today? (chief complaint) 
+
+Patient 1
+I have chest pain 
+
+Doctor
+Where In the chest is the pain? (location) 
+
+Patient 1
+To the left upper chest.
+
+Doctor
+Any other symptoms? (associated symptoms)
+
+Patient 1
+I get short of breath when I walk. I also get nausea. 
+
+Doctor
+Any thing that makes the chest pain worse? (exacerbation symptoms) 
+
+Patient 1
+Walking makes the pain worse.
+
+Doctor
+How long had you had the chest pains? (duration) 
+
+Patient 1
+I have the pains for the last month
+
+
+Doctor
+Do you have acid reflux? (differential diagnosis? 
+
+Patient 1
+No
+
+Doctor
+Do you have cough?
+
+Patient 1
+No
+
+Doctor
+Any anxiety? 
+
+Patient 1
+No
+
+
+Doctor
+Have you had any medical conditions in the past?
+
+Patient 1
+Yes, I have high blood pressure, diabetes and high cholesterol 
+
+Doctor
+What medications do you take? 
+
+Patient 1
+Metformin, atorvastatin and lisinopril 
+
+Doctor
+For metformin what dose do you take? 
+
+Patient 1
+500 mg tablet in the morning and one in the evening 
+
+Doctor
+For atorvastatin what dose do you take? 
+
+Patient 1
+20 mg in the evening 
+
+Doctor
+For lisinopril? 
+
+Patient 1
+10 mg daily 
+
+Doctor
+Any allergies to medications? 
+
+Patient 1
+No 
+
+
+Doctor
+Any illness in the family? 
+
+Patient 1
+My father had a heart attack 
+
+doctor
+Had you had recent fevers or chills?
+
+Patient 1
+No 
+
+doctor
+had you had recent palpitations or chest pains
+
+patient 1
+no 
+
+doctor
+had you had recent shortness of breath or cough?
+
+Patient 1
+No 
