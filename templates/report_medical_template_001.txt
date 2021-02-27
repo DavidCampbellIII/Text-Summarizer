@@ -1,47 +1,52 @@
-/*
-KEY:
-<>                  replace (can use ~, ~#, or # to specify what kind of replacement should take place)
-#                   tags key of replacement
-###some words###    manual insertion required
-~                   replace with direct import
-~#                  replace with summarizer import
-/* */               comment (can be used as multiline comment, such as in this example)
-*/
+// ==================KEY====================
+// <>                       replace (can use ~, ~#, or # to specify what kind of replacement should take place)
+// #                        tags key of replacement
+// ###prompt to ask###      manual insertion required (with embedded prompt)
+// ~                        replace with direct import
+// ~#                       replace with summarizer import
+// //                       comment (ignore everything on that line)
+// =========================================
 
+//Main reason for coming in
 Chief complaint 
 <#CHIEF_COMPLAINT> 
 
+//All other recent illness as described by the patient
 History of present illness
 <#PRESENT_ILLNESS>
 
 -------
+//Imported and summarized past medical history
 Past medical history 
 <~#PAST_MEDICAL_HISTORY>
 
+//Imported medications
 Medications
 <~MEDICATIONS>
 
+//Imported allergies
 Allergies
 <~ALLERGIES>
 
+//Imported and summarized family history
 Family history 
 <~#FAMILY_HISTORY>
 
 -------
 Review of system
-#TODO
+//TODO
 General: no fevers or chills
 Cardiac: no palpitations, has chest pains
 Pulmonary: has shortness of breath, no cough
 
 Exam
-#TODO
+//TODO
 Vitals temperature 97.4 blood pressure 124/78 pulse of 78 respiratory rate of 80
 Lungs clear to auscultation, good air movement
 Heart: regular rate and rhythm, no murmurs
 
 Assessment
-###DOCTOR MANUAL INSERTION REQUIRED###
+###What is your assessment of the situation?###
 
 Plan
-###DOCTOR MANUAL INSERTION REQUIRED###
+###What is the treatment plan for this patient?###

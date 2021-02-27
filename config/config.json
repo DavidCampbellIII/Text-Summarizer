@@ -9,5 +9,8 @@
     "testText" : "test_text_htmlConvo.txt",
 
     "reportTemplates_PATH" : "templates/",
-    "reportTemplate" : "report_medical_template_001.txt"
+    "reportTemplate" : "report_medical_template_001.txt",
+
+    "reportExports_PATH" : "reports/",
+    "reportExportName" : "report_test_$Date.txt"
 }

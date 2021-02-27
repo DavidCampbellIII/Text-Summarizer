@@ -20,7 +20,7 @@
 #[] Investigate why Punctator will not start up correctly (may be due to corrupt dependency library)
 #[x] Email OpenAI about GPT-3
 #[] Experiment with QIE Engine for Epic software data importing
-#[] Research BERT and see how it can be implemented in this project
+#[] Research BERT and see how it can be implemented in this project (clinical BERT specifically)
 
 #Questions:
 #Do numbers ever really matter? (Not "one", but "1" etc.)
@@ -31,19 +31,26 @@
 #Speaking of the above, how will the device work in general?  All processing done on Raspberry Pi maybe?
 #   Or recorded on a normal deivce, and then uploaded to computer?  Mix of both?
 
-from core.recorder import Recorder
+#from core.recorder import Recorder
 from core.summarizer import Summarizer
 from core.resourceManager import ResourceManager
 from core.reporter import Reporter
-import utils.corpusLoader
+from utils.corpusManager import CorpusManager
 
 if __name__ == "__main__":
     configFileName = "config/config.json"
     resourceManager = ResourceManager(configFileName)
-    recorder = Recorder(resourceManager.puncuatorPath)
-    text = recorder.record()
-    summarizedText = Summarizer.summarize(text, compressionRate=0.9)
+    #recorder = Recorder(resourceManager.puncuatorPath)
+    #text = recorder.record()
+    #summarizedText = Summarizer.summarize(text, compressionRate=0.9)
 
+    #print(summarizedText)
+
+    corpusFilePath = resourceManager.corpusPath
+    corpus = CorpusManager.loadCorpus(corpusFilePath)
+
+    #test report saving
     reporter = Reporter(resourceManager.reportTemplatePath)
-
-    print(summarizedText)
+    report = reporter.produceReport("Test conversational text right here")
+    reportFileName = resourceManager.generateReportExportFileName()
+    #reporter.saveReport(report, reportFileName)
