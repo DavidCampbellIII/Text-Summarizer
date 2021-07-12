@@ -31,6 +31,15 @@
 #Speaking of the above, how will the device work in general?  All processing done on Raspberry Pi maybe?
 #   Or recorded on a normal deivce, and then uploaded to computer?  Mix of both?
 
+#Disease or symptom has a set of related words (medication, blood test, eye exam etc.)
+#For each sentence, here are things to consider when determining how important that sentence is:
+    #Word frequency - MEDIUM WEIGHT
+    #If it contains a medical term - MEDIUM WEIGHT
+    #If it contains a medical term that is related to the disease or symptom identified - HIGH WEIGHT
+        #Include all symanoms of the word as well
+    #Emotional evaluation - MEDIUM WEIGHT
+
+
 #from core.recorder import Recorder
 from core.summarizer import Summarizer
 from core.resourceManager import ResourceManager

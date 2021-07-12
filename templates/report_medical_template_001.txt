@@ -34,14 +34,21 @@ Family history
 
 -------
 Review of system
-//TODO
+//TODO maybe prompt for the same set of systems?
+//Figure out major symptoms (cheif complaint), and parse through a 
+//predefined dict of symptoms relating to systems to check
+//Also allow for manual overrides and additional systems to be added
+//just in case
 General: no fevers or chills
 Cardiac: no palpitations, has chest pains
 Pulmonary: has shortness of breath, no cough
 
 Exam
 //TODO
+//Vitals ALWAYS needed
 Vitals temperature 97.4 blood pressure 124/78 pulse of 78 respiratory rate of 80
+//Other exam based values can be related
+//to whatever systems were determined above
 Lungs clear to auscultation, good air movement
 Heart: regular rate and rhythm, no murmurs
 
